@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Рейтинговая таблиця</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+    <section class="main" data-name="forma1" data-if="true">
+
+
+        <label for="number">Количество участников:</label>
+        <input type="number" id="participants" class="number">
+
+        <label for="number">Количество судей:</label>
+        <input type="number" id="judges" class="number" min="3" max="5">
+
+
+        <input type="submit" value="Подтвердить" class="submit">
+
+
+    </section>
+
+
+    <section class="table" data-name="forma2" data-if="false">
+        <div>
+            <div class="participants">
+                <h2 class="participants_name">Участники:</h2>
+                <ul class="participants_ul">
+                    <li class="participants_li">
+                        <input type="text" class="input1" id='input'>
+                    </li>
+                </ul>
+            </div>
+            <div class="judges">
+                <h2 class="judges_name">Судьи:</h2>
+                <ul class="judges_ul">
+                    <li class="judges_li">
+                        <input type="text" class="input1">
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <button class="submit2 " type="submit" value="next">Дальше</button>
+    </section>
+
+
+
+    <section class="results" data-name="forma3" data-if="false">
+        <div class="resultstable">Результаты:</div>
+        <div class="resulttable">
+            <div class="column ">
+                <div class="side block mainbox"></div>
+                <div class="side block"></div>
+                <div class="side block"></div>
+                <div class="side block"></div>
+                <div class="side block"></div>
+                <div class="side block"></div>
+                <div class="side block"></div>
+
+
+            </div>
+            <div class="column">
+                <div class="side block"></div>
+                <div class="block"></div>
+                <div class="block"></div>
+                <div class="block"></div>
+                <div class="block"></div>
+                <div class="block"></div>
+                <div class="side block "></div>
+
+            </div>
+            <div class="column">
+                <div class="side block"></div>
+                <div class="block"></div>
+                <div class="block"></div>
+                <div class="block"></div>
+                <div class="block"></div>
+                <div class="block"></div>
+                <div class="side block"></div>
+
+            </div>
+            <div class="column">
+                <div class="side block"></div>
+                <div class="block"></div>
+                <div class="block"></div>
+                <div class="block"></div>
+                <div class="block"></div>
+                <div class="block"></div>
+                <div class="side block "></div>
+
+            </div>
+            <div class="column">
+                <div class="side block"></div>
+                <div class="block"></div>
+                <div class="block"></div>
+                <div class="block"></div>
+                <div class="block"></div>
+                <div class="block"></div>
+                <div class="side block "></div>
+
+            </div>
+            <div class="column">
+                <div class="side block"></div>
+                <div class="block"></div>
+                <div class="block"></div>
+                <div class="block"></div>
+                <div class="block"></div>
+                <div class="block"></div>
+                <div class="side block "></div>
+
+            </div>
+            <div class="column">
+                <div class="side block"></div>
+                <div class="block"></div>
+                <div class="block"></div>
+                <div class="block"></div>
+                <div class="block"></div>
+                <div class="block"></div>
+                <div class="side block "></div>
+            </div>
+            <div class="column">
+                <div class="side block"></div>
+                <div class="block"></div>
+                <div class="block"></div>
+                <div class="block"></div>
+                <div class="block"></div>
+                <div class="block"></div>
+                <div class=" side block"></div>
+            </div>
+
+            <div class="column sidecol">
+                <div class="side block mainbox">Result</div>
+                <div class="side block"></div>
+                <div class="side block"></div>
+                <div class="side block"></div>
+                <div class="side block"></div>
+                <div class="side block"></div>
+                <div class="side block"></div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <script src="js.js"></script>
+</body>
+
+</html>
